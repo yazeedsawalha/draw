@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="embed.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram id="nDYd-ZmdffjobXpvFf9T" name="Page-1">
+    <mxGraphModel dx="951" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=none;opacity=50;" value="" vertex="1">
+          <mxGeometry height="580" width="800" as="geometry" />
+        </mxCell>
+        <mxCell id="gcp_container" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#4285F4;strokeWidth=2;arcSize=3;dashed=1;dashPattern=8 4;" value="" vertex="1">
+          <mxGeometry height="530" width="600" x="180" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gcp_badge" parent="1" style="text;html=1;strokeColor=none;fillColor=#4285F4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontStyle=1;fontSize=12;fontColor=#FFFFFF;spacingLeft=8;spacingRight=8;" value="☁️ Google Cloud Platform" vertex="1">
+          <mxGeometry height="28" width="180" x="190" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="jira_container" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0052CC;strokeWidth=2;shadow=1;arcSize=12;" value="" vertex="1">
+          <mxGeometry height="120" width="120" x="20" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="jira_icon" parent="1" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.worldvectorlogo.com/logos/jira-1.svg;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="50" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jira_label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=13;fontColor=#0052CC;" value="Jira" vertex="1">
+          <mxGeometry height="20" width="90" x="35" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="jira_sublabel" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;" value="CAF Source" vertex="1">
+          <mxGeometry height="18" width="90" x="35" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="step1_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#1A73E8;strokeWidth=2;shadow=1;arcSize=12;" value="" vertex="1">
+          <mxGeometry height="130" width="140" x="200" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="step1_badge" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1A73E8;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" value="1" vertex="1">
+          <mxGeometry height="24" width="24" x="205" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="step1_icon" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4285F4;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.data_pipeline;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="245" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="step1_label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;fontColor=#1A73E8;" value="Load CAF" vertex="1">
+          <mxGeometry height="20" width="120" x="210" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="step1_sublabel" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#5F6368;" value="Data Pipeline" vertex="1">
+          <mxGeometry height="18" width="120" x="210" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="bq_container" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF7E0;strokeColor=#F9AB00;strokeWidth=2;shadow=1;arcSize=12;" value="" vertex="1">
+          <mxGeometry height="130" width="160" x="400" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bq_icon" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#F9AB00;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.gcp2.bigquery;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="455" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bq_label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=13;fontColor=#E37400;" value="BigQuery" vertex="1">
+          <mxGeometry height="22" width="120" x="420" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="bq_sublabel" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#5F6368;" value="CAF Data Store" vertex="1">
+          <mxGeometry height="18" width="120" x="420" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="step2_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E8FD;strokeColor=#9334E6;strokeWidth=2;shadow=1;arcSize=12;" value="" vertex="1">
+          <mxGeometry height="130" width="140" x="620" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="step2_badge" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#9334E6;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" value="2" vertex="1">
+          <mxGeometry height="24" width="24" x="625" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="step2_icon" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#9334E6;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.search;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="665" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="step2_label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=12;fontColor=#9334E6;" value="Detect New" vertex="1">
+          <mxGeometry height="20" width="120" x="630" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="step2_sublabel" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#5F6368;" value="CAF Records" vertex="1">
+          <mxGeometry height="18" width="120" x="630" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="ai_container" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EAF6;strokeColor=#5C6BC0;strokeWidth=2;shadow=1;arcSize=6;dashed=0;" value="" vertex="1">
+          <mxGeometry height="150" width="360" x="400" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ai_badge" parent="1" style="text;html=1;strokeColor=none;fillColor=#5C6BC0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontStyle=1;fontSize=11;fontColor=#FFFFFF;spacingLeft=6;spacingRight=6;" value="🤖 AI Analysis Service" vertex="1">
+          <mxGeometry height="24" width="140" x="410" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="step3_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5FE;strokeColor=#039BE5;strokeWidth=2;shadow=1;arcSize=12;" value="" vertex="1">
+          <mxGeometry height="105" width="120" x="420" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="step3_badge" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#039BE5;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" value="3" vertex="1">
+          <mxGeometry height="24" width="24" x="425" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="step3_icon" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#039BE5;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="455" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="step3_label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=11;fontColor=#039BE5;" value="Pull Records" vertex="1">
+          <mxGeometry height="18" width="110" x="425" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="step3_sublabel" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#5F6368;" value="New CAF Data" vertex="1">
+          <mxGeometry height="16" width="110" x="425" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="step4_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#E91E63;strokeWidth=2;shadow=1;arcSize=12;" value="" vertex="1">
+          <mxGeometry height="105" width="180" x="560" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="step4_badge" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E91E63;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" value="4" vertex="1">
+          <mxGeometry height="24" width="24" x="565" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="step4_icon" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E91E63;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.sagemaker;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="625" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="step4_label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=11;fontColor=#E91E63;" value="AI Model Analysis" vertex="1">
+          <mxGeometry height="18" width="160" x="570" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="step4_sublabel" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#5F6368;" value="Capabilities &amp; Connections" vertex="1">
+          <mxGeometry height="16" width="160" x="570" y="341" as="geometry" />
+        </mxCell>
+        <mxCell id="step5_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#34A853;strokeWidth=2;shadow=1;arcSize=12;" value="" vertex="1">
+          <mxGeometry height="120" width="180" x="560" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="step5_badge" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#34A853;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" value="5" vertex="1">
+          <mxGeometry height="24" width="24" x="565" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="step5_icon" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#34A853;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.analytics;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="625" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="step5_label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=11;fontColor=#34A853;" value="Receive AI Results" vertex="1">
+          <mxGeometry height="18" width="160" x="570" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="step5_sublabel" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#5F6368;" value="Enriched Data Output" vertex="1">
+          <mxGeometry height="16" width="160" x="570" y="511" as="geometry" />
+        </mxCell>
+        <mxCell id="step6_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#FF8F00;strokeWidth=2;shadow=1;arcSize=12;" value="" vertex="1">
+          <mxGeometry height="120" width="180" x="300" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="step6_badge" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF8F00;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" value="6" vertex="1">
+          <mxGeometry height="24" width="24" x="305" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="step6_icon" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#FF8F00;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.database;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="365" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="step6_label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=11;fontColor=#FF8F00;" value="Update BigQuery" vertex="1">
+          <mxGeometry height="18" width="160" x="310" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="step6_sublabel" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#5F6368;" value="AI-Enriched Data" vertex="1">
+          <mxGeometry height="16" width="160" x="310" y="511" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
