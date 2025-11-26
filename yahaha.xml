@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="embed.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram id="oo9n5FgiRPAJGTi_9T2D" name="Page-1">
+    <mxGraphModel dx="761" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#333333;" value="CAF → Capability Mapping &amp; Enrichment Architecture" vertex="1">
+          <mxGeometry height="30" width="450" x="200" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1_bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;strokeWidth=2;opacity=50;" value="" vertex="1">
+          <mxGeometry height="200" width="180" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1_label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#1565C0;" value="1️⃣ Data Ingestion" vertex="1">
+          <mxGeometry height="20" width="140" x="40" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="jira" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1976D2;strokeColor=#0D47A1;fontColor=#FFFFFF;fontStyle=1;fontSize=12;" value="JIRA" vertex="1">
+          <mxGeometry height="40" width="110" x="55" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="caf_loader" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4CAF50;strokeColor=#2E7D32;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" value="CAF Loader&#xa;Service" vertex="1">
+          <mxGeometry height="40" width="110" x="55" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bq_caf_raw" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#FFC107;strokeColor=#FF8F00;fontStyle=1;fontSize=10;" value="BigQuery&#xa;(caf_raw)" vertex="1">
+          <mxGeometry height="50" width="100" x="60" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" edge="1" parent="1" source="jira" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;" target="caf_loader" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2" edge="1" parent="1" source="caf_loader" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;" target="bq_caf_raw" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2_bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=2;opacity=50;" value="" vertex="1">
+          <mxGeometry height="200" width="180" x="220" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2_label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#7B1FA2;" value="2️⃣ CAF → Capability" vertex="1">
+          <mxGeometry height="20" width="140" x="240" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ai_caf_cap" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9C27B0;strokeColor=#6A1B9A;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" value="🤖 CAF–Capability&#xa;AI Agent" vertex="1">
+          <mxGeometry height="50" width="120" x="250" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="bq_caf_cap" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#FFC107;strokeColor=#FF8F00;fontStyle=1;fontSize=9;" value="BigQuery&#xa;(CAF + capability_codes)" vertex="1">
+          <mxGeometry height="55" width="110" x="255" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow3" edge="1" parent="1" source="bq_caf_raw" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="ai_caf_cap" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="235" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow4" edge="1" parent="1" source="ai_caf_cap" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;" target="bq_caf_cap" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3_bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#388E3C;strokeWidth=2;opacity=50;" value="" vertex="1">
+          <mxGeometry height="200" width="200" x="420" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3_label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#388E3C;" value="3️⃣ AI Agent #1: Namespace Mapping" vertex="1">
+          <mxGeometry height="20" width="180" x="430" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ai_ns_cap" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4CAF50;strokeColor=#2E7D32;fontColor=#FFFFFF;fontStyle=1;fontSize=10;" value="🤖 Namespace–Capability&#xa;AI Agent (#1)" vertex="1">
+          <mxGeometry height="50" width="150" x="445" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="svc_catalog" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#03A9F4;strokeColor=#0277BD;fontColor=#FFFFFF;fontStyle=1;fontSize=9;" value="Service Catalog&#xa;(namespaces, microservices)" vertex="1">
+          <mxGeometry height="55" width="130" x="640" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="biz_cap_table" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#03A9F4;strokeColor=#0277BD;fontColor=#FFFFFF;fontStyle=1;fontSize=9;" value="Business Capabilities&#xa;Table" vertex="1">
+          <mxGeometry height="50" width="130" x="640" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="bq_ns_map" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#FFC107;strokeColor=#FF8F00;fontStyle=1;fontSize=9;" value="BigQuery&#xa;(capability ↔ namespace&#xa;mappings)" vertex="1">
+          <mxGeometry height="60" width="130" x="455" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow5" edge="1" parent="1" source="bq_caf_cap" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="ai_ns_cap" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow6" edge="1" parent="1" source="svc_catalog" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#0277BD;dashed=1;" target="ai_ns_cap" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow7" edge="1" parent="1" source="biz_cap_table" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#0277BD;dashed=1;" target="ai_ns_cap" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow8" edge="1" parent="1" source="ai_ns_cap" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;" target="bq_ns_map" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4_bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E65100;strokeWidth=2;opacity=50;" value="" vertex="1">
+          <mxGeometry height="150" width="400" x="220" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4_label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#E65100;" value="4️⃣ AI Agent #2: Capability Enrichment" vertex="1">
+          <mxGeometry height="20" width="200" x="320" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="ai_enrich" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF5722;strokeColor=#BF360C;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" value="🤖 Capability Enrichment&#xa;AI Agent (#2)" vertex="1">
+          <mxGeometry height="50" width="160" x="240" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="enrich_details" parent="1" style="text;html=1;strokeColor=#E65100;fillColor=#FFF8E1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=9;fontColor=#333333;spacing=5;" value="• Tech Stack inference&#xa;• Integration Types&#xa;• Dev Group / Ownership&#xa;• SLAs, Channels..." vertex="1">
+          <mxGeometry height="55" width="140" x="240" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="bq_enriched" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#FFC107;strokeColor=#FF8F00;fontStyle=1;fontSize=9;" value="BigQuery&#xa;(Enriched Business&#xa;Capabilities)" vertex="1">
+          <mxGeometry height="60" width="140" x="450" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow9" edge="1" parent="1" source="bq_ns_map" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ai_enrich" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="260" />
+              <mxPoint x="320" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow10" edge="1" parent="1" source="ai_enrich" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;" target="bq_enriched" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="phase5_bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#455A64;strokeWidth=2;opacity=50;" value="" vertex="1">
+          <mxGeometry height="100" width="400" x="220" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="phase5_label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#455A64;" value="5️⃣ Final Output" vertex="1">
+          <mxGeometry height="20" width="120" x="360" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="ui_reports" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#607D8B;strokeColor=#37474F;fontColor=#FFFFFF;fontStyle=1;fontSize=12;" value="📊 UI / Reports / Dashboards" vertex="1">
+          <mxGeometry height="50" width="200" x="320" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow11" edge="1" parent="1" source="bq_enriched" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="ui_reports" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow12" edge="1" parent="1" source="bq_caf_cap" style="endArrow=classic;html=1;strokeWidth=1;strokeColor=#7B1FA2;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="ui_reports" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="430" />
+              <mxPoint x="370" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend_bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAFAFA;strokeColor=#BDBDBD;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="130" width="140" x="640" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#333333;" value="Legend" vertex="1">
+          <mxGeometry height="15" width="60" x="680" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="legend1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9C27B0;strokeColor=#6A1B9A;" value="" vertex="1">
+          <mxGeometry height="15" width="20" x="650" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="legend1_text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" value="AI Agent" vertex="1">
+          <mxGeometry height="15" width="60" x="675" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="legend2" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=5;fillColor=#FFC107;strokeColor=#FF8F00;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="650" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="legend2_text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" value="BigQuery Table" vertex="1">
+          <mxGeometry height="15" width="80" x="675" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="legend3" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#03A9F4;strokeColor=#0277BD;" value="" vertex="1">
+          <mxGeometry height="18" width="20" x="650" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="legend3_text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" value="External Data" vertex="1">
+          <mxGeometry height="15" width="70" x="675" y="292" as="geometry" />
+        </mxCell>
+        <mxCell id="legend4" edge="1" parent="1" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="325" as="sourcePoint" />
+            <mxPoint x="670" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend4_text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" value="Data Flow" vertex="1">
+          <mxGeometry height="15" width="60" x="675" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="legend5" edge="1" parent="1" style="endArrow=classic;html=1;strokeWidth=1;strokeColor=#0277BD;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="340" as="sourcePoint" />
+            <mxPoint x="670" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend5_text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" value="Reference Data" vertex="1">
+          <mxGeometry height="15" width="80" x="675" y="333" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
