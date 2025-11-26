@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="embed.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram id="XZpdG4071mHBj6YHvBF_" name="Page-1">
+    <mxGraphModel dx="761" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" value="CAF Processing Sequence Diagram" vertex="1">
+          <mxGeometry height="30" width="300" x="250" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="jira_head" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Jira" vertex="1">
+          <mxGeometry height="50" width="30" x="60" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="loader_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="CAF Loader" vertex="1">
+          <mxGeometry height="40" width="80" x="150" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="caf_table_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="CAF Table" vertex="1">
+          <mxGeometry height="40" width="80" x="290" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cap_table_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Capabilities&#xa;Table" vertex="1">
+          <mxGeometry height="40" width="80" x="430" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="agent_head" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="AI Agent" vertex="1">
+          <mxGeometry height="40" width="80" x="570" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bq_label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#82b366;" value="BigQuery" vertex="1">
+          <mxGeometry height="20" width="80" x="330" y="42" as="geometry" />
+        </mxCell>
+        <mxCell id="jira_life" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 2;strokeWidth=1;strokeColor=#6c8ebf;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="75" y="110" as="sourcePoint" />
+            <mxPoint x="75" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="loader_life" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 2;strokeWidth=1;strokeColor=#d6b656;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="190" y="100" as="sourcePoint" />
+            <mxPoint x="190" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="caf_life" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 2;strokeWidth=1;strokeColor=#82b366;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="100" as="sourcePoint" />
+            <mxPoint x="330" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cap_life" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 2;strokeWidth=1;strokeColor=#82b366;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="100" as="sourcePoint" />
+            <mxPoint x="470" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="agent_life" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 2;strokeWidth=1;strokeColor=#9673a6;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="610" y="100" as="sourcePoint" />
+            <mxPoint x="610" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg1" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#333333;fontColor=#333333;fontSize=10;" value="1. Pull CAF tickets">
+          <mxGeometry relative="1" x="-0.05" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="190" y="130" as="sourcePoint" />
+            <mxPoint x="75" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg1_ret" edge="1" parent="1" style="endArrow=open;html=1;strokeColor=#666666;dashed=1;fontColor=#666666;fontSize=10;endFill=0;" value="CAF tickets data">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="155" as="sourcePoint" />
+            <mxPoint x="190" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg2" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#333333;fontColor=#333333;fontSize=10;" value="2. Push CAF data">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="185" as="sourcePoint" />
+            <mxPoint x="330" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg2_ret" edge="1" parent="1" style="endArrow=open;html=1;strokeColor=#666666;dashed=1;fontColor=#666666;fontSize=10;endFill=0;" value="OK">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="210" as="sourcePoint" />
+            <mxPoint x="190" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg3" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#333333;fontColor=#333333;fontSize=10;" value="3. Check for new CAF records">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="250" as="sourcePoint" />
+            <mxPoint x="330" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg3_ret" edge="1" parent="1" style="endArrow=open;html=1;strokeColor=#666666;dashed=1;fontColor=#666666;fontSize=10;endFill=0;" value="New records found">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="275" as="sourcePoint" />
+            <mxPoint x="610" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg4" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#333333;fontColor=#333333;fontSize=10;" value="4. Fetch CAF details (summary, desc, systems)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="305" as="sourcePoint" />
+            <mxPoint x="330" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg4_ret" edge="1" parent="1" style="endArrow=open;html=1;strokeColor=#666666;dashed=1;fontColor=#666666;fontSize=10;endFill=0;" value="CAF details">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="330" as="sourcePoint" />
+            <mxPoint x="610" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg5" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#333333;fontColor=#333333;fontSize=10;" value="5. Query namespaces + microservices">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="360" as="sourcePoint" />
+            <mxPoint x="470" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg5_ret" edge="1" parent="1" style="endArrow=open;html=1;strokeColor=#666666;dashed=1;fontColor=#666666;fontSize=10;endFill=0;" value="Namespaces data">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="385" as="sourcePoint" />
+            <mxPoint x="610" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="alt_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b85450;dashed=1;" value="" vertex="1">
+          <mxGeometry height="55" width="180" x="450" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="alt_label" parent="1" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=1;" value="alt" vertex="1">
+          <mxGeometry height="15" width="25" x="450" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="alt_cond" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontStyle=2;fontColor=#b85450;" value="[no namespaces found]" vertex="1">
+          <mxGeometry height="15" width="120" x="478" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="msg6" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#b85450;fontColor=#b85450;fontSize=10;" value="6. Fetch all capabilities">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="435" as="sourcePoint" />
+            <mxPoint x="470" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg7_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;align=center;" value="7. Analyze data &amp;&#xa;produce capability codes" vertex="1">
+          <mxGeometry height="40" width="100" x="615" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="msg7_arrow" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#9673a6;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="495" />
+            </Array>
+            <mxPoint x="610" y="475" as="sourcePoint" />
+            <mxPoint x="610" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg8" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#333333;fontColor=#333333;fontSize=10;" value="8. Update CAF table with capability codes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="535" as="sourcePoint" />
+            <mxPoint x="330" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg8_ret" edge="1" parent="1" style="endArrow=open;html=1;strokeColor=#666666;dashed=1;fontColor=#666666;fontSize=10;endFill=0;" value="Updated">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="555" as="sourcePoint" />
+            <mxPoint x="610" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
