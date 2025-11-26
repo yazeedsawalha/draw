@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="embed.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram id="V4fLbAjogHAQ6Z6Y6FSP" name="Page-1">
+    <mxGraphModel dx="951" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=#DADCE0;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="520" width="780" x="20" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#202124;" value="AI Agent #1: Connect Namespaces to Capabilities" vertex="1">
+          <mxGeometry height="35" width="500" x="150" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gcpLabel" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#5F6368;fontStyle=2;" value="Google Cloud Platform" vertex="1">
+          <mxGeometry height="20" width="140" x="35" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="inputLabel" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#5F6368;letterSpacing=1;" value="INPUT SOURCES" vertex="1">
+          <mxGeometry height="20" width="120" x="40" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bqCafIcon" parent="1" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.svgrepo.com/show/375547/bigquery.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="75" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bqCafLabel" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#202124;" value="&lt;b&gt;BigQuery&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;CAF + Capability Codes&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="serviceCatalogIcon" parent="1" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.svgrepo.com/show/375545/service-discovery.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="75" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="serviceCatalogLabel" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#202124;" value="&lt;b&gt;Service Catalog&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Namespaces, Microservices&lt;br&gt;Ownership&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="130" x="35" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="bizCapIcon" parent="1" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.svgrepo.com/show/375544/cloud-sql.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="75" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="bizCapLabel" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#202124;" value="&lt;b&gt;Business Capabilities&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Name, Description&lt;br&gt;Domain, Tech Stack&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="140" x="30" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="aiAgentContainer" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#4285F4;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="360" width="310" x="230" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vertexIcon" parent="1" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.svgrepo.com/show/375549/vertexai.svg;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="245" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aiAgentTitle" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#1A73E8;" value="Namespace–Capability AI Agent" vertex="1">
+          <mxGeometry height="25" width="240" x="290" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="aiAgentSubtitle" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#5F6368;" value="Vertex AI Agent" vertex="1">
+          <mxGeometry height="15" width="100" x="290" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="step1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#DADCE0;shadow=1;" value="" vertex="1">
+          <mxGeometry height="50" width="270" x="250" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="step1Num" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=none;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" value="1" vertex="1">
+          <mxGeometry height="25" width="25" x="260" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="step1Text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" value="&lt;b&gt;Query&lt;/b&gt; - Get newly mapped CAF records&lt;br&gt;with capability codes" vertex="1">
+          <mxGeometry height="40" width="220" x="290" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="step2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#DADCE0;shadow=1;" value="" vertex="1">
+          <mxGeometry height="55" width="270" x="250" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="step2Num" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=none;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" value="2" vertex="1">
+          <mxGeometry height="25" width="25" x="260" y="227" as="geometry" />
+        </mxCell>
+        <mxCell id="step2Text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" value="&lt;b&gt;Fetch Context&lt;/b&gt;&lt;br&gt;• Capability details (name, domain)&lt;br&gt;• Service catalog (namespaces, services)" vertex="1">
+          <mxGeometry height="50" width="225" x="290" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="step3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#DADCE0;shadow=1;" value="" vertex="1">
+          <mxGeometry height="65" width="270" x="250" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="step3Num" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#34A853;strokeColor=none;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" value="3" vertex="1">
+          <mxGeometry height="25" width="25" x="260" y="297" as="geometry" />
+        </mxCell>
+        <mxCell id="step3Text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" value="&lt;b&gt;AI Analysis&lt;/b&gt;&lt;br&gt;Match namespaces &amp; microservices to&lt;br&gt;capabilities using: CAF data + service&lt;br&gt;tags + domain context" vertex="1">
+          <mxGeometry height="60" width="225" x="290" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="step4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#DADCE0;shadow=1;" value="" vertex="1">
+          <mxGeometry height="50" width="270" x="250" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="step4Num" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FBBC04;strokeColor=none;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" value="4" vertex="1">
+          <mxGeometry height="25" width="25" x="260" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="step4Text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" value="&lt;b&gt;Write Results&lt;/b&gt; - capability_code,&lt;br&gt;namespace, microservice, confidence" vertex="1">
+          <mxGeometry height="45" width="225" x="290" y="358" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#4285F4;entryX=0;entryY=0.2;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="125" as="sourcePoint" />
+            <mxPoint x="230" y="162" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#34A853;entryX=0;entryY=0.5;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="235" as="sourcePoint" />
+            <mxPoint x="230" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#EA4335;entryX=0;entryY=0.8;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="355" as="sourcePoint" />
+            <mxPoint x="230" y="378" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bqOutputIcon" parent="1" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.svgrepo.com/show/375547/bigquery.svg;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="620" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="bqOutputLabel" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#202124;" value="&lt;b&gt;BigQuery&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Capability ↔ Namespace&lt;br&gt;Mappings&lt;/font&gt;" vertex="1">
+          <mxGeometry height="45" width="120" x="590" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#FBBC04;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="270" as="sourcePoint" />
+            <mxPoint x="615" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="schemaBox" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#DADCE0;shadow=1;" value="" vertex="1">
+          <mxGeometry height="140" width="160" x="575" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="schemaTitle" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#5F6368;" value="Output Schema" vertex="1">
+          <mxGeometry height="20" width="100" x="605" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="schemaContent" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#202124;" value="• capability_code&lt;br&gt;• namespace&lt;br&gt;• microservice&lt;br&gt;• confidence_score&lt;br&gt;• source = &quot;AI-mapped&quot;&lt;br&gt;• reasoning" vertex="1">
+          <mxGeometry height="100" width="135" x="590" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="legendBox" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#DADCE0;shadow=1;" value="" vertex="1">
+          <mxGeometry height="80" width="160" x="40" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="legendTitle" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#5F6368;" value="Data Flow" vertex="1">
+          <mxGeometry height="15" width="80" x="50" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="legend1Line" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#4285F4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="55" y="472" as="sourcePoint" />
+            <mxPoint x="85" y="472" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend1Text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#202124;" value="CAF Data" vertex="1">
+          <mxGeometry height="15" width="80" x="90" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="legend2Line" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#34A853;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="55" y="490" as="sourcePoint" />
+            <mxPoint x="85" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend2Text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#202124;" value="Service Catalog" vertex="1">
+          <mxGeometry height="15" width="80" x="90" y="483" as="geometry" />
+        </mxCell>
+        <mxCell id="legend3Line" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#EA4335;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="55" y="508" as="sourcePoint" />
+            <mxPoint x="85" y="508" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend3Text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#202124;" value="Business Capabilities" vertex="1">
+          <mxGeometry height="15" width="105" x="90" y="501" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
